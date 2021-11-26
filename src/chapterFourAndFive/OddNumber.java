@@ -1,4 +1,4 @@
-package chapterFour;
+package chapterFourAndFive;
 
 public class OddNumber {
     public static void main(String[] args) {
