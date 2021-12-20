@@ -25,8 +25,7 @@ public class SwitchClass {
         System.out.println("Press any of the number on your screen");
         int number = input.nextInt();
         switch (number) {
-
-            case 1:
+            case 1 -> {
                 String phonebook = """
                         press 1 to search
                         press 2 for service nos
@@ -42,7 +41,6 @@ public class SwitchClass {
                 System.out.println(phonebook);
                 System.out.println("Select any of the numbers above to proceed");
                 int book = input.nextInt();
-
                 switch (book) {
                     case 1:
                         System.out.println("You are using the search box");
@@ -69,7 +67,7 @@ public class SwitchClass {
                                 Enter 1 for type of view
                                 Enter 2 for message validity
                                 """;
-
+                        System.out.println(options);
                         System.out.println("enter any of the number above to proceed");
                         int opt = input.nextInt();
 
@@ -85,8 +83,8 @@ public class SwitchClass {
                     case 10:
                         System.out.println("Voice tag selected");
                 }
-                break;
-            case 2:
+            }
+            case 2 -> {
                 String message = """
                         Press 1 to write message
                         Press 2 to check inbox
@@ -102,7 +100,6 @@ public class SwitchClass {
                 System.out.println(message);
                 System.out.println("Select any of the numbers above to proceed");
                 int messages = input.nextInt();
-
                 switch (messages) {
                     case 1:
                         System.out.println("Now u can write your texts messages");
@@ -169,15 +166,15 @@ public class SwitchClass {
                                 break;
                             case 4:
                                 String call = """
-                                   Press 1 missed call
-                                   Press 2 received call
-                                   Press 3 dialled number
-                                   Press 4 erase recent numbers
-                                   Press 5 show call duration
-                                   Press 6 show call costs
-                                   Press 7 call cost settings
-                                   Press 8 Prepaid credit
-                                   """;
+                                        Press 1 missed call
+                                        Press 2 received call
+                                        Press 3 dialled number
+                                        Press 4 erase recent numbers
+                                        Press 5 show call duration
+                                        Press 6 show call costs
+                                        Press 7 call cost settings
+                                        Press 8 Prepaid credit
+                                        """;
                                 System.out.println(call);
                                 System.out.println("Press 1 of the above keys");
                                 int calls = input.nextInt();
@@ -199,23 +196,12 @@ public class SwitchClass {
                                         System.out.println("Press 1 of the above keys");
                                         int durate = input.nextInt();
                                         switch (durate) {
-                                            case 1:
-                                                System.out.println("Last call duration is 1:30");
-                                                break;
-                                            case 2:
-                                                System.out.println("All calls duration is 59:55");
-                                                break;
-                                            case 3:
-                                                System.out.println("Received calls duration is 50:34");
-                                                break;
-                                            case 4:
-                                                System.out.println("Dialed calls duration is 5:23");
-                                                break;
-                                            case 5:
-                                                System.out.println("Clear calls timer");
-                                                break;
-                                            default:
-                                                System.out.println("Select one biko");
+                                            case 1 -> System.out.println("Last call duration is 1:30");
+                                            case 2 -> System.out.println("All calls duration is 59:55");
+                                            case 3 -> System.out.println("Received calls duration is 50:34");
+                                            case 4 -> System.out.println("Dialed calls duration is 5:23");
+                                            case 5 -> System.out.println("Clear calls timer");
+                                            default -> System.out.println("Select one biko");
                                         }
                                     }
                                     case 6 -> {
@@ -228,17 +214,10 @@ public class SwitchClass {
                                         System.out.println("Press 1 of the keys above");
                                         int callcost = input.nextInt();
                                         switch (callcost) {
-                                            case 1:
-                                                System.out.println("Last call cost 5naira");
-                                                break;
-                                            case 2:
-                                                System.out.println("All call cost 500naira");
-                                                break;
-                                            case 3:
-                                                System.out.println("Clear counters");
-                                                break;
-                                            default:
-                                                System.out.println("Go back to the beginning");
+                                            case 1 -> System.out.println("Last call cost 5naira");
+                                            case 2 -> System.out.println("All call cost 500naira");
+                                            case 3 -> System.out.println("Clear counters");
+                                            default -> System.out.println("Go back to the beginning");
                                         }
                                     }
                                     case 7 -> {
@@ -250,14 +229,9 @@ public class SwitchClass {
                                         System.out.println("Enter 1 of the above keys");
                                         int ccsettings = input.nextInt();
                                         switch (ccsettings) {
-                                            case 1:
-                                                System.out.println("Call cost limit is 22");
-                                                break;
-                                            case 2:
-                                                System.out.println("Cost is in dollars");
-                                                break;
-                                            default:
-                                                System.out.println("Select 1");
+                                            case 1 -> System.out.println("Call cost limit is 22");
+                                            case 2 -> System.out.println("Cost is in dollars");
+                                            default -> System.out.println("Select 1");
                                         }
                                     }
                                     case 8 -> System.out.println("Prepaid credit is allowed");
@@ -267,6 +241,7 @@ public class SwitchClass {
 
                         }
                 }
+            }
         }
     }
 }

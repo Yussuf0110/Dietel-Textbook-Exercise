@@ -1,6 +1,6 @@
 package chapterFourAndFive;
 
-public class Drill {
+public class PatternA {
     public static void main(String[] args) {
 //        int i = 1;
 //        int k = 0;
