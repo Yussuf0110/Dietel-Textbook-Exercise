@@ -1,10 +1,9 @@
 package chapterSix;
 
-import chapterThree.Employee;
-import chapterThree.Invoice;
+import chapterThree.*;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class KataTest {
 
@@ -138,6 +137,35 @@ class InvoiceAmount{
     double increaseSalary = employeeA.increaseSalary();
     assertEquals(132,increaseSalary);
 }
+
+
+@Test
+    public void  getCharges(){
+    ParkingCharges park1 = new ParkingCharges();
+    double park = park1.calculateParkingCharges(5);
+    assertEquals(3.00,park);
+}
+@Test
+    public void getHypotenuse(){
+    Hypotenuse test = new Hypotenuse();
+    double result1 = test.hypotenuse(3.0,4.0);
+    assertEquals(5,result1);
+    double result2 = test.hypotenuse(5.0,12.0);
+    assertEquals(13,result2);
+    double result3 = test.hypotenuse(8.0,15.0);
+    assertEquals(17,result3);
+}
+
+
+@Test
+    public void checkMultiple(){
+    Multiple test = new Multiple();
+    boolean answer1 = test.isMultiple(2,4);
+    assertTrue(answer1);
+    boolean answer2 = test.isMultiple(9,3);
+    assertTrue(answer2);
+}
+
 
 
 

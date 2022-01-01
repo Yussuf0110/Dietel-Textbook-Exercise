@@ -7,7 +7,7 @@ public class LargestNumber {
 
         int number = 0;
         int counter = 0;
-        int largest = 0;
+        int largest = number;
 
         Scanner input = new Scanner(System.in);
 
@@ -16,12 +16,13 @@ public class LargestNumber {
             number = input.nextInt();
             counter++;
 
+            if (number > largest){
+                largest = number;
+
         }
 
-        if (number > largest){
-            largest = number;
-            System.out.printf("%s is the largest number", largest);
         }
+            System.out.printf("%s is the largest number", largest);
 
 
 

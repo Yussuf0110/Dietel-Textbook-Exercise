@@ -1,8 +1,12 @@
 package Weekend;
 
+import chapterThree.Multiple;
+
 import java.security.SecureRandom;
+import java.util.Scanner;
 
 public class Saturday{
+
 //    public Saturday(String name, int age, double grades, char gradesV) {
 //    }
 //
@@ -14,6 +18,7 @@ public class Saturday{
 
 
     public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
 //// randomNumbers object will produce secure random numbers
 //        SecureRandom randomNumbers = new SecureRandom();
 //// loop 20 times
@@ -68,11 +73,94 @@ public class Saturday{
 //                frequency1, frequency2, frequency3, frequency4,
 //                frequency5, frequency6);
 //    }
-    }
+
+//
+//        int x;
+//        double y = Math.floor(9 + 0.5);
+//        System.out.println(y);
+
+
+
+//            Exercise 5.11 (c)
+//        SecureRandom randomNumbers = new SecureRandom();
+//        int n = 1 + randomNumbers.nextInt(7);
+//        System.out.println(n);
+
+//            Exercise 5.11 (a)
+//        SecureRandom randomNumbers = new SecureRandom();
+//        int n = 2 + randomNumbers.nextInt(6);
+//        System.out.println(n);
+
+//            Exercise 5.11 (b)
+//                SecureRandom randomNumbers = new SecureRandom();
+//        int n = 4 + randomNumbers.nextInt(50);
+//        System.out.println(n);
+
+
+        //            Exercise 5.11 (d)
+//                SecureRandom randomNumbers = new SecureRandom();
+//        int n = -1 + randomNumbers.nextInt(1);
+//        System.out.println(n);
+
+
+//        //            Exercise 5.12 (a)
+        SecureRandom randomNumber = new SecureRandom();
+//        int n = 2 + 3 * randomNumber.nextInt(5);
+//        System.out.println(n);
+//
+//        for (int i = 0; i <= 14; i++){
+//           double n = 2 + 3 * randomNumber.nextInt();
+//            System.out.println(n);
+//        }
+
+//        DecryptCrypto floor = new DecryptCrypto();
+//        System.out.println("Enter double number: ");
+//        double numbersample = input.nextDouble();
+//
+//       double t = DecryptCrypto.myFloor(numbersample);
+//        System.out.println(t);
+//        double w = DecryptCrypto.myFloor2(numbersample);
+//        System.out.println(w);
+//
+//        double u = DecryptCrypto.myCeil(numbersample);
+//        System.out.println(u);
+//        double v = DecryptCrypto.myCeil2(numbersample);
+//        System.out.println(v);
+
+
+//        System.out.println("Enter int ");
+//                int i = input.nextInt();
+//        System.out.println("Enter double ");
+//                double d = input.nextInt();
+//input.nextLine();
+//        System.out.print("Enter string ");
+//                String s = input.nextLine();
+//
+//
+//                // Write your code here.
+//
+//
+//                System.out.println("String: " + s);
+//                System.out.println("Double: " + d);
+//                System.out.println("Int: " + i);
+
+//            System.out.println("Enter number ");
+//            int N = input.nextInt();
+//        for(int i = 1;i <= 10;i++){
+//            int result = N * i;
+//            System.out.printf("%d x %d = %d", N,i,result);
+//            System.out.println();
+//        }
+
+        System.out.println(Multiple.isMultiple(201,4));
 
 
 
 
 
 
-}
+
+
+
+            }
+        }
