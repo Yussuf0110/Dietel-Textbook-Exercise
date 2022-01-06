@@ -148,11 +148,31 @@ public class Saturday{
 //            int N = input.nextInt();
 //        for(int i = 1;i <= 10;i++){
 //            int result = N * i;
-//            System.out.printf("%d x %d = %d", N,i,result);
+//            1System.out.printf("%d x %d = %d", N,i,result);
 //            System.out.println();
 //        }
 
-        System.out.println(Multiple.isMultiple(201,4));
+//        System.out.println(Multiple.isMultiple(201,4));
+
+//        System.out.println("Enter number ");
+//        int number = input.nextInt();
+//        Multiple.squareAsterisks(number);
+//        Multiple.squareOfCharacters(3,'#');
+
+
+//        System.out.println("enter year ");
+//        int year = input.nextInt();
+//        Multiple.leapYear(year);
+
+
+        System.out.println("Enter celsius ");
+        double celsius = input.nextDouble();
+        Multiple.kelvin(celsius);
+        System.out.println("Enter kelvin ");
+        double kelvin = input.nextDouble();
+        Multiple.celsius(kelvin);
+
+
 
 
 
