@@ -165,16 +165,14 @@ public class Saturday{
 //        Multiple.leapYear(year);
 
 
-        System.out.println("Enter celsius ");
-        double celsius = input.nextDouble();
-        Multiple.kelvin(celsius);
-        System.out.println("Enter kelvin ");
-        double kelvin = input.nextDouble();
-        Multiple.celsius(kelvin);
+//        System.out.println("Enter celsius ");
+//        double celsius = input.nextDouble();
+//        Multiple.kelvin(celsius);
+//        System.out.println("Enter kelvin ");
+//        double kelvin = input.nextDouble();
+//        Multiple.celsius(kelvin);
 
-
-
-
+        Multiple.leapYear(2024);
 
 
 

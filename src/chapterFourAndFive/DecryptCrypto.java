@@ -12,8 +12,7 @@ public class DecryptCrypto {
         return number - 0.5;
     }
     public static double myCeil2(double number){
-        double result2 =number + 0.5;
-        return result2;
+        return number + 0.5;
     }
 
 

@@ -22,6 +22,7 @@ public class Multiple {
                 System.out.println();
             }
         }
+
         public static void squareOfCharacters(int number,char character){
         for(int i = 1; i <= number; i++){
             for(int j = 1; j <= number; j++)
@@ -51,6 +52,7 @@ public class Multiple {
         double celsius = kelvin - 237.5;
         System.out.println(celsius);
     }
+
 
 
 
