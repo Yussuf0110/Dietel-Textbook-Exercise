@@ -30,7 +30,7 @@ public class Arithmetic {
         System.out.println("Multi is " + product);
 
         division = number1 / number2;
-        System.out.println("Qoutient is " + division);
+        System.out.println("Quotient is " + division);
 
         difference = number1 - number2;
         System.out.println("Difference is " + difference);

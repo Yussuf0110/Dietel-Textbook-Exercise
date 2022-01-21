@@ -1,6 +1,6 @@
 package chapterSix;
 
-public class KataMethodII {
+public class TestKataMethod {
 
 //    private int score = 0;
 

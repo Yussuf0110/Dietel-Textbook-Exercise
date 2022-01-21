@@ -11,17 +11,6 @@ public class Kata {
         return 'F';
     }
 
-//    public static int calculateTotalOfArray(int[] numbers) {
-//        int[] numbers = new int [3];
-//        int total = 0;
-//        for (int i = 0; i< numbers.length; i++){
-//            total += numbers[3];
-//        }
-//        return total;
-//    }
-
-
-
     public int calculatePriceForQuantities(int quantity) {
         int price = 0;
 

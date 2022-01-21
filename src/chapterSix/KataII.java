@@ -12,7 +12,7 @@ public class KataII {
         System.out.print("Enter your score: ");
         score = input.nextInt();
 
-        KataMethodII rat = new KataMethodII();
+        TestKataMethod rat = new TestKataMethod();
         System.out.println(rat.setGrades(score));
     }
     }

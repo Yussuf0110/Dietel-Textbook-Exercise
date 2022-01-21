@@ -5,26 +5,30 @@ import java.util.Scanner;
 public class ParkingCharges {
 
     public static void main(String[] args) {
-        double totalEarned = 0;
-
-
         Scanner input = new Scanner(System.in);
+        double totalEarned = 0;
+        int inputAvailable = 0;
 
+
+        while(inputAvailable != -5){
         System.out.println("Enter customer name: ");
         String customerName = input.nextLine();
-        System.out.println("Enter hour parked or -1 to quit: ");
+        System.out.println("Enter hour parked: ");
         int hourParked = input.nextInt();
 
 
         double chargeIs = ParkingCharges.calculateParkingCharges(hourParked);
-        System.out.printf("%s parking charges is %.2f ", customerName, chargeIs);
-
-        System.out.println();
+        System.out.printf("%s parking charges is %.2f\n ", customerName, chargeIs);
 
         totalEarned += chargeIs;
-        System.out.printf("The total of charges is %.5f", totalEarned);
+
+        System.out.println("Enter any number to continue or -5 to end ");
+        inputAvailable = input.nextInt();
 
         }
+        System.out.printf("The total of charges is %.5f", totalEarned);
+
+    }
 
 
     public static double calculateParkingCharges(int hourParked) {
