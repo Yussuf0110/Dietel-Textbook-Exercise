@@ -1,4 +1,4 @@
-package chapterTwo.exercises;
+package chapterTwo;
 //Answer to Exercise 2.18
 //Displaying Shapes with Asterisks
 

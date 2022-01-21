@@ -1,7 +1,7 @@
-package chapterTwo.exercises;
+package chapterTwo;
 import java.util.Scanner;
 
-public class NumberSeperation{
+public class NumberSeparation {
 
     public static void main(String[]args){
 

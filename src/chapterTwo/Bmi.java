@@ -1,4 +1,4 @@
-package chapterTwo.exercises;
+package chapterTwo;
 
 import java.util.Scanner;
 
@@ -10,12 +10,12 @@ public class Bmi {
 
                 System.out.print("Enter weight in kilograms ");
                 Scanner input = new Scanner(System.in);
-                int wInKilograms = input.nextInt();
+                int weightInKilograms = input.nextInt();
 
                 System.out.print("Enter height in metres ");
-                int hInMetres = input.nextInt();
+                int heightInMetres = input.nextInt();
 
-                bmi = wInKilograms/ (hInMetres * hInMetres);
+                bmi = weightInKilograms/ (heightInMetres * heightInMetres);
                 System.out.println("BMI is " +bmi);
 
                 if ( bmi < 18.5){

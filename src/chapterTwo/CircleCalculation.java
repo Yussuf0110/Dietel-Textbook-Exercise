@@ -1,4 +1,4 @@
-package chapterTwo.exercises;
+package chapterTwo;
 //Answer to Exercise 2.28
 //CircleCalculationimport java.util.Scanner;
 

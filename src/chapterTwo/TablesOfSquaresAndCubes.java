@@ -1,4 +1,4 @@
-package chapterTwo.exercises;
+package chapterTwo;
 
 public class TablesOfSquaresAndCubes{
 

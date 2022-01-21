@@ -1,4 +1,4 @@
-package chapterTwo.exercises;
+package chapterTwo;
 
 // Exercise 2.17
 // Program that input two numbers to display the sum, average, product, smallest and largest of numbers.
@@ -16,8 +16,6 @@ public class ArithmeticSmallestLargest{
         int sum;
         int average;
         int product;
-        int smallest;
-        int largest;
 
         System.out.print("Enter first number ");
         a = input.nextInt();
@@ -37,22 +35,21 @@ public class ArithmeticSmallestLargest{
         product = a * b * c;
         System.out.println("The product is " + product);
 
-        if (a < b) {if (a < c);{
+        if ((a < b) && (a < c)) {
             System.out.println("the smallest is " + a);
-        }}
+        }
 
-        if (a > b) {if (a > c);{
+        if ((a > b) && (a > c)) {
             System.out.println("the largest is " + a);
-        }}
+        }
 
-
-        if (c < b) {if (c < a);{
+        if ((c < b) && (c < a)){
             System.out.println("the smallest is " + c);
-        }}
+        }
 
-        if (c > b) {if (c > a);{
+        if ((c > b) && (c > a)) {
             System.out.println("the largest is " + c);
         }
-        }
+
     }
 }

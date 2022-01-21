@@ -1,4 +1,4 @@
-package chapterTwo.exercises;
+package chapterTwo;
 //Answer to Exercise 2.27
 //MultipleOfNumber
 
@@ -18,10 +18,10 @@ public class MultipleOfNumber
         int fig = number1 % number2;
 
         if (fig == 0){
-            System.out.printf("%d is a mutiple of %d", number1, number2);
+            System.out.printf("%d is a multiple of %d", number1, number2);
         }
 
-        else if (fig != 0){
+        else {
             System.out.printf("%d is not a multiple of %d", number1, number2);
         }
     }

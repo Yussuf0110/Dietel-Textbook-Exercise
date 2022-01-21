@@ -13,7 +13,7 @@ public class GuessingNumber {
 
 
 
-        System.out.println("Guess the number:");
+        System.out.println("Guess the number between 1 to 1000:");
         int userInput = input.nextInt();
 
         while (userInput != guess) {

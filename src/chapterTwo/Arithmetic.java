@@ -1,4 +1,4 @@
-package chapterTwo.exercises;
+package chapterTwo;
 // Exercise 2.15
 // Arithmetic program that input two numbers to display the sum, product, difference and quotient.
 

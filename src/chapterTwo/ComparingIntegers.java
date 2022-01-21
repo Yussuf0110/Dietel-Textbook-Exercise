@@ -1,10 +1,10 @@
-package chapterTwo.exercises;
+package chapterTwo;
 
 import java.util.Scanner;
 
 public class ComparingIntegers {
     // Exercise 2.16
-    // Comparing Interger
+    // Comparing Integer
 
         public static void main(String[]args){
 
