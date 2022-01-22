@@ -1,4 +1,4 @@
-package chapterFourAndFive;
+package chapterSix;
 
 import java.security.SecureRandom;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ public class GuessingNumber {
         Scanner input = new Scanner(System.in);
         SecureRandom guessNumber = new SecureRandom();
 
-        int guess = 1 + guessNumber.nextInt(5);
+        int guess = 1 + guessNumber.nextInt(1000);
         int counter = 0;
 
 
@@ -18,9 +18,11 @@ public class GuessingNumber {
 
         while (userInput != guess) {
             userInput = input.nextInt();
+
             if (userInput < guess) {
                 System.out.println("Too low.Try again");
-            } else if (userInput > guess){
+            }
+            else if (userInput > guess){
                 System.out.println("Too high");
             }
             else {
@@ -36,5 +38,3 @@ public class GuessingNumber {
         }
     }
 }
-
-
