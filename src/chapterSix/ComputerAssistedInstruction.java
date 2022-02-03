@@ -36,8 +36,7 @@ public static void question(){
     int firstNumber = 1 + random.nextInt(9);
     int secondNumber = 1 + random.nextInt(9);
     int correctAnswer = firstNumber * secondNumber;
-    int correctAnswer_count = 0;
-    int wrongAnswer_count = 0;
+
 
 
     System.out.printf("What is %s multiply by %s ",firstNumber,secondNumber);
@@ -47,7 +46,7 @@ public static void question(){
         System.out.println(responses(badResponses));
         System.out.printf("What is %s multiply by %s ",firstNumber,secondNumber);
         userInput = userAnswer.nextInt();
-        wrongAnswer_count+=1;
+
     }
     System.out.println(responses(goodResponses));
     question();

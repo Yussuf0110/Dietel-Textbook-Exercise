@@ -4,7 +4,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class CoinTossing {
-    private enum coin {HEAD, TAIL}
 
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
@@ -23,7 +22,12 @@ public class CoinTossing {
             System.out.println(inputOptions);
             int timesToTossCoin = userInput.nextInt();
             CoinTossing.flipCoin(timesToTossCoin);
-        } else {
+        }
+        else if (userResponse == 2 ) {
+            System.exit(userResponse);
+        }
+        else
+         {
             throw new IllegalStateException("Unexpected value: " + userResponse);
         }
     }
@@ -53,8 +57,7 @@ public class CoinTossing {
 
     public static int flip() {
         Random random = new Random();
-        int answer = 1 + random.nextInt(2);
-        return answer;
+        return 1 + random.nextInt(2);
     }
 }
 

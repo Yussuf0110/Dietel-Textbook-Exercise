@@ -159,7 +159,7 @@ class InvoiceAmount{
 
 @Test
     public void checkMultiple(){
-    Multiple test = new Multiple();
+    Methods test = new Methods();
     boolean answer1 = test.isMultiple(2,4);
     assertTrue(answer1);
     boolean answer2 = test.isMultiple(9,3);

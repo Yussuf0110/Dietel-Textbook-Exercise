@@ -1,6 +1,6 @@
 package Weekend;
 
-import chapterThree.Multiple;
+import chapterThree.Methods;
 
 import java.security.SecureRandom;
 import java.util.Scanner;
@@ -172,7 +172,9 @@ public class Saturday{
 //        double kelvin = input.nextDouble();
 //        Multiple.celsius(kelvin);
 
-        Multiple.leapYear(2024);
+        Methods.leapYear(2024);
+
+        Methods.primeNumber(55);
 
 
 
