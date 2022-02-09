@@ -15,25 +15,16 @@ public class Archery {
             }
         }
 
-        System.out.println("Player\t1stScore\t2ndScore\t3rdScore");
-
-
-
-
-
-
-
-
-
         int player1= playerPoints[0][0] + playerPoints[0][1] + playerPoints[0][2];
         int player2= playerPoints[1][0] + playerPoints[1][1] + playerPoints[1][2];
         int player3= playerPoints[2][0] + playerPoints[2][1] + playerPoints[2][2];
         int player4= playerPoints[3][0] + playerPoints[3][1] + playerPoints[3][2];
 
-        System.out.printf("Player 1 total score is %d " , player1);
 
-
-
-
+        System.out.println("Player\t1stScore\t2ndScore\t3rdScore\tTotal");
+        System.out.printf("1\t\t\t%d\t\t\t%d\t\t\t%d\t\t%d\n",playerPoints[0][0],playerPoints[0][1],playerPoints[0][2],player1);
+        System.out.printf("2\t\t\t%d\t\t\t%d\t\t\t%d\t\t%d\n",playerPoints[1][0],playerPoints[1][1],playerPoints[1][2],player2);
+        System.out.printf("3\t\t\t%d\t\t\t%d\t\t\t%d\t\t%d\n",playerPoints[2][0],playerPoints[2][1],playerPoints[2][2],player3);
+        System.out.printf("4\t\t\t%d\t\t\t%d\t\t\t%d\t\t%d\n",playerPoints[3][0],playerPoints[3][1],playerPoints[3][2],player4);
     }
 }
